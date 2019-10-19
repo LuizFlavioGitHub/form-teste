@@ -45,7 +45,7 @@
     $mail->Host       = 'smtp.gmail.com'; // SEU HOST (HOSPEDAGEM)
     $mail->SMTPAuth   = true;                        // Manter em true
     $mail->Username   = 'vendastudoparavoce@gmail.com';   //SEU USUÁRIO DE EMAIL    ok
-    $mail->Password   = '2019abra';                   //SUA SENHA DO EMAIL SMTP password  ok
+    $mail->Password   = 'senha_do_email';                   //SUA SENHA DO EMAIL SMTP password  ok
     $mail->SMTPSecure = 'tls';    //TLS OU SSL-VERIFICAR COM A HOSPEDAGEM    ok
     $mail->Port       = 587;     //TCP PORT, VERIFICAR COM A HOSPEDAGEM     ok
     $mail->CharSet    = "UTF-8";    //DEFINE O CHARSET UTILIZADO       ok
